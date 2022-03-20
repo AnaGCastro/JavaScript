@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Calcular Troco</title>
+        <script type="text/javascript" src="troco.js"></script>
+    </head>
+    <body>
+
+        <form id="formulario">
+            <fieldset>
+                <legend>Calcular Troco</legend>
+
+                <label for="valorCompra" >Valor da compra:</label>
+                <input type="text" id="valorCompra" name="valorCompra" /><br />
+                <br>
+
+                <label for="valorPago" >Valor pago:</label>
+                <input type="text" id="valorPago" name="valorPago" /><br /><br />
+
+                <button type="button" id="button" onclick="calculaTroco()">Calcular troco</button><br /><br />
+
+                <label for="valorTroco" >Valor do troco:</label>
+                <input type="text" id="valorTroco" name="valorTroco" readonly="readonly"/><br /><br />  
+
+            </fieldset>
+        </form>
+    <script type="text/javascript" src="troco.js"></script>
+    </body>
+
+</html>
