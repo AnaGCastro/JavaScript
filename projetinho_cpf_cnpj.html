@@ -1,0 +1,25 @@
+<html>
+<head>
+    <style>
+        
+    </style>
+    
+</head>
+<body>
+    <script src="https://unpkg.com/imask"></script>
+<input id="cpfcnpj" type="text" placeholder="digite o CPF ou CNPJ" name="cpfcnpj" required>
+    <script type="text/javascript">
+        var maskCpfOuCnpj = IMask(document.getElementById('cpfcnpj'), {
+			mask:[
+				{
+					mask: '000.000.000-00',
+					maxLength: 11
+				},
+				{
+					mask: '00.000.000/0000-00'
+				}
+			]
+		});
+    </script>
+</body>
+</html>
